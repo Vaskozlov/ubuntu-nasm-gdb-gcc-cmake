@@ -10,6 +10,7 @@ LABEL authors="vaskozlov"
 
 RUN apt-get update
 RUN apt install -y git
+RUN apt install -y fish
 RUN apt install -y python3.10
 RUN apt install -y gcc
 RUN apt install -y cmake
