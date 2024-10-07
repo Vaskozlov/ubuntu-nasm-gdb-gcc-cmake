@@ -21,6 +21,6 @@ RUN apt install -y nasm
 RUN apt install -y nano
 RUN apt install -y vim
 
-curl https://gist.githubusercontent.com/Vaskozlov/165d50671bae7323c5cce76b84622265/raw/b9df3791d1f7ed117b6111c077992e3c1b3bc63a/docker_m1_gdb.py > run_gdb.py
+RUN curl https://gist.githubusercontent.com/Vaskozlov/165d50671bae7323c5cce76b84622265/raw/b9df3791d1f7ed117b6111c077992e3c1b3bc63a/docker_m1_gdb.py > run_gdb.py
 
 ENTRYPOINT ["fish"]
