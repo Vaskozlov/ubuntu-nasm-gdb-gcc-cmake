@@ -22,4 +22,4 @@ RUN apt install -y nasm
 ENV CC gcc-14
 ENV CXX g++-14
 
-ENTRYPOINT ["top", "-b"]
+ENTRYPOINT ["fish"]
