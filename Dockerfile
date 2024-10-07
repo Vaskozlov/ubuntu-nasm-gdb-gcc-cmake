@@ -18,5 +18,7 @@ RUN apt install -y ninja-build
 RUN apt install -y gdb
 RUN apt install -y make
 RUN apt install -y nasm
+RUN apt install -y nano
+RUN apt install -y vim
 
 ENTRYPOINT ["fish"]
