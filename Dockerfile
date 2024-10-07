@@ -19,7 +19,4 @@ RUN apt install -y gdb
 RUN apt install -y make
 RUN apt install -y nasm
 
-ENV CC gcc-14
-ENV CXX g++-14
-
 ENTRYPOINT ["fish"]
